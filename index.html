@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sedenum</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__box">
+                <div class="header__box__items">
+                    <img class="logo" src="img/logo.svg" alt="Home">
+                    <div class="logo__content">
+                        <p>SEDENUM</p>
+                        <p>LLC ODM + R&D</p>
+                    </div>
+                </div>
+                <div class="header__box__items">
+                    <nav class="menu">
+                        <a href="#" class="menu__btn ">
+                            <span class="menu__btn-element"></span>
+                        </a>
+                        <ul class="menu__list">
+                            <li class="menu__list__items scrollto">
+                                <a class="menu__list__link" href="#service">Services</a>
+                            </li>
+                            <li class="menu__list__items scrollto">
+                                <a class="menu__list__link" href="#projects">Projects</a>
+                            </li>
+                            <li class="menu__list__items scrollto">
+                                <a class="menu__list__link" href="#about">About us</a>
+                            </li>
+                            <li class="menu__list__items menu__list__items--mobile scrollto">
+                                <a class="menu__list__link menu__list__link--red" href="#footer">Contact</a>
+                            </li>
+                            <div class="footer__box__social footer__box__social--menu">
+                                <div class="footer__box__social__items">
+                                    <a href="#" target="_blank" rel="nofollow">
+                                        <svg class="footer__box__social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7506 13.0798H19.1669V15.7777C19.9471 14.226 21.9479 12.8318 24.9536 12.8318C30.7154 12.8318 32.0834 15.9206 32.0834 21.5877V32.0833H26.25V22.8783C26.25 19.651 25.4698 17.831 23.4836 17.831C20.7288 17.831 19.584 19.7925 19.584 22.8768V32.0833H13.7506V13.0798ZM3.74794 31.8354H9.58127V12.8318H3.74794V31.8354ZM10.4169 6.63538C10.4171 7.12432 10.3201 7.60843 10.1316 8.05957C9.94311 8.5107 9.66681 8.91987 9.31877 9.26329C8.61352 9.9642 7.65891 10.3565 6.6646 10.3541C5.67205 10.3535 4.71964 9.96212 4.01335 9.26475C3.66658 8.92016 3.39121 8.51054 3.20302 8.05934C3.01483 7.60814 2.91753 7.12424 2.91669 6.63538C2.91669 5.64808 3.31044 4.70308 4.01481 4.006C4.72048 3.30769 5.67329 2.91619 6.66606 2.91663C7.66065 2.91663 8.6144 3.30892 9.31877 4.006C10.0217 4.70308 10.4169 5.64808 10.4169 6.63538Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer__box__social__items">
+                                    <a href="#" target="_blank" rel="nofollow">
+                                        <svg class="footer__box__social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+                                            <g clip-path="url(#clip0_1164_400)">
+                                                <path d="M38.5 12.25H26.25V8.75H38.5V12.25ZM41.5205 29.75C40.747 32.0198 37.9697 35 32.5938 35C27.2143 35 22.8568 31.9743 22.8568 25.0688C22.8568 18.2262 26.9255 14.7087 32.4222 14.7087C37.8158 14.7087 41.1092 17.8273 41.8285 22.4543C41.965 23.3398 42.0192 24.5332 41.9948 26.1992H27.9475C28.175 31.8185 34.0428 31.9953 35.9765 29.75H41.5205ZM28.07 22.75H36.7587C36.575 20.0428 34.7707 18.8668 32.424 18.8668C29.8585 18.8668 28.4393 20.2107 28.07 22.75ZM11.3155 34.979H0V8.78675H12.1678C21.7507 8.9285 21.9328 18.3138 16.9277 20.8722C22.9845 23.0773 23.1875 34.979 11.3155 34.979ZM5.25 19.25H11.522C15.911 19.25 16.6075 14 10.976 14H5.25V19.25ZM11.1842 24.5H5.25V29.778H11.0968C16.443 29.778 16.1157 24.5 11.1842 24.5Z"></path>
+                                              </g>
+                                              <defs>
+                                                <clipPath id="clip0_1164_400">
+                                                  <rect width="42" height="42"></rect>
+                                                </clipPath>
+                                              </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="footer__box__social__items">
+                                    <a href="#" target="_blank" rel="nofollow">
+                                        <svg class="footer__box__social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 27">
+                                            <path d="M3.3186 27V14.3308H0V9.7693H3.3186V5.87318C3.3186 2.81156 5.27891 0 9.79588 0C11.6247 0 12.9771 0.176985 12.9771 0.176985L12.8705 4.43667C12.8705 4.43667 11.4913 4.42311 9.98632 4.42311C8.35743 4.42311 8.09646 5.18087 8.09646 6.43856V9.7693H13L12.7866 14.3308H8.09646V27H3.3186Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__box__items scrollto">
+                    <a class="header__link" href="#footer">Contact</a>
+                </div>
+            </div>
+            <h1 class="header__title">When energy matters</h1>
+            <span class="scrollto">
+                <a class="header__bottom__link" href="#service">
+                    <svg class="header__bottom__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 22">
+                        <path d="M1.76239 1.04346L20.1529 19.6799C21.7191 21.2672 24.2809 21.2672 25.8472 19.6799L33.6188 11.8043L44.2376 1.04346" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                    </svg>
+                </a>
+            </span>
+        </div>
+        <canvas id="nokey">
+            Your Browser Don't Support Canvas, Please Download Chrome ^_^``
+        </canvas>
+    </header>
+    <section class="service" id="service">
+        <div class="wrapper">
+            <h2 class="section-title">Services</h2>
+            <div class="service__box">
+                <div class="service__box__items service__box__items--mobile">
+                    <div class="service__circle__cover">R&D</div>
+                    <div class="service__circle">
+                        <div class="service__circle__top">
+                            <div class="service__circle__top__border"></div>
+                            <div class="service__circle__top__content">FULL</div>
+                        </div>
+                        <ul class="service__circle__list">
+                            <li class="service__circle__list__items"><span>design development</span></li>
+                            <li class="service__circle__list__items"><span>development of mechanics</span></li>
+                            <li class="service__circle__list__items"><span>research development</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service__box__items">
+                    <div class="service__circle service__circle--filter">
+                        <div class="service__circle__bottom">
+                            <div class="service__circle__bottom__content">CYCLE</div>
+                            <div class="service__circle__top__border"></div>
+                        </div>
+                        <ul class="service__circle__list">
+                            <li class="service__circle__list__items service__circle__list__items--color"><span>golden samples</span></li>
+                            <li class="service__circle__list__items service__circle__list__items--color"><span>test samples</span></li>
+                            <li class="service__circle__list__items service__circle__list__items--color"><span>pilot batch</span></li>
+                            <li class="service__circle__list__items service__circle__list__items--color"><span>product cost manegment</span></li>
+                            <li class="service__circle__list__items service__circle__list__items--color"><span>BOM</span></li>
+                        </ul>
+                        <p class="service__circle__title">Prototyping</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="wrapper">
+            <h2 class="section-title section-title--right">Projects</h2>
+        </div>
+        <div class="projects__box">
+            <div class="projects__box__items">
+                <div class="projects__box__content" id="project">
+                    <h3 class="projects__box__title">Turpis pellentesque</h3>
+                    <div class="projects__box__view">
+                        <p>View project</p>
+                        <svg class="projects__box__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 10">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.78048e-05 4.50059C3.7799e-05 4.36798 0.0527162 4.2408 0.146484 4.14704C0.240253 4.05327 0.36743 4.00059 0.500038 4.00059L19.9394 4.00059L16.7924 0.854589C16.6985 0.760702 16.6458 0.633364 16.6458 0.500589C16.6458 0.367813 16.6985 0.240475 16.7924 0.146589C16.8863 0.0527022 17.0137 -4.27054e-05 17.1464 -4.27112e-05C17.2792 -4.2717e-05 17.4065 0.0527021 17.5004 0.146589L21.5004 4.14659C21.547 4.19303 21.5839 4.24821 21.6091 4.30896C21.6343 4.3697 21.6473 4.43482 21.6473 4.50059C21.6473 4.56636 21.6343 4.63148 21.6091 4.69222C21.5839 4.75297 21.547 4.80814 21.5004 4.85459L17.5004 8.85459C17.4065 8.94848 17.2792 9.00122 17.1464 9.00122C17.0137 9.00122 16.8863 8.94848 16.7924 8.85459C16.6985 8.7607 16.6458 8.63336 16.6458 8.50059C16.6458 8.36781 16.6985 8.24047 16.7924 8.14659L19.9394 5.00059L0.500038 5.00059C0.36743 5.00059 0.240253 4.94791 0.146484 4.85414C0.0527162 4.76037 3.78106e-05 4.6332 3.78048e-05 4.50059Z" fill="black" fill-opacity="0.5"></path>
+                        </svg>
+                    </div>
+                </div>
+                <img class="projects__img" src="img/projects__box__items.jpg" alt="">
+            </div>
+            <div class="projects__box__items">
+                <div class="projects__box__content" id="project">
+                    <h3 class="projects__box__title">Turpis pellentesque</h3>
+                    <div class="projects__box__view">
+                        <p>View project</p>
+                        <svg class="projects__box__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 10">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.78048e-05 4.50059C3.7799e-05 4.36798 0.0527162 4.2408 0.146484 4.14704C0.240253 4.05327 0.36743 4.00059 0.500038 4.00059L19.9394 4.00059L16.7924 0.854589C16.6985 0.760702 16.6458 0.633364 16.6458 0.500589C16.6458 0.367813 16.6985 0.240475 16.7924 0.146589C16.8863 0.0527022 17.0137 -4.27054e-05 17.1464 -4.27112e-05C17.2792 -4.2717e-05 17.4065 0.0527021 17.5004 0.146589L21.5004 4.14659C21.547 4.19303 21.5839 4.24821 21.6091 4.30896C21.6343 4.3697 21.6473 4.43482 21.6473 4.50059C21.6473 4.56636 21.6343 4.63148 21.6091 4.69222C21.5839 4.75297 21.547 4.80814 21.5004 4.85459L17.5004 8.85459C17.4065 8.94848 17.2792 9.00122 17.1464 9.00122C17.0137 9.00122 16.8863 8.94848 16.7924 8.85459C16.6985 8.7607 16.6458 8.63336 16.6458 8.50059C16.6458 8.36781 16.6985 8.24047 16.7924 8.14659L19.9394 5.00059L0.500038 5.00059C0.36743 5.00059 0.240253 4.94791 0.146484 4.85414C0.0527162 4.76037 3.78106e-05 4.6332 3.78048e-05 4.50059Z" fill="black" fill-opacity="0.5"></path>
+                        </svg>
+                    </div>
+                </div>
+                <img class="projects__img" src="img/projects__box__items.jpg" alt="">
+            </div>
+            <div class="projects__box__items">
+                <div class="projects__box__content" id="project">
+                    <h3 class="projects__box__title">Turpis pellentesque</h3>
+                    <div class="projects__box__view">
+                        <p>View project</p>
+                        <svg class="projects__box__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 10">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.78048e-05 4.50059C3.7799e-05 4.36798 0.0527162 4.2408 0.146484 4.14704C0.240253 4.05327 0.36743 4.00059 0.500038 4.00059L19.9394 4.00059L16.7924 0.854589C16.6985 0.760702 16.6458 0.633364 16.6458 0.500589C16.6458 0.367813 16.6985 0.240475 16.7924 0.146589C16.8863 0.0527022 17.0137 -4.27054e-05 17.1464 -4.27112e-05C17.2792 -4.2717e-05 17.4065 0.0527021 17.5004 0.146589L21.5004 4.14659C21.547 4.19303 21.5839 4.24821 21.6091 4.30896C21.6343 4.3697 21.6473 4.43482 21.6473 4.50059C21.6473 4.56636 21.6343 4.63148 21.6091 4.69222C21.5839 4.75297 21.547 4.80814 21.5004 4.85459L17.5004 8.85459C17.4065 8.94848 17.2792 9.00122 17.1464 9.00122C17.0137 9.00122 16.8863 8.94848 16.7924 8.85459C16.6985 8.7607 16.6458 8.63336 16.6458 8.50059C16.6458 8.36781 16.6985 8.24047 16.7924 8.14659L19.9394 5.00059L0.500038 5.00059C0.36743 5.00059 0.240253 4.94791 0.146484 4.85414C0.0527162 4.76037 3.78106e-05 4.6332 3.78048e-05 4.50059Z" fill="black" fill-opacity="0.5"></path>
+                        </svg>
+                    </div>
+                </div>
+                <img class="projects__img" src="img/projects__box__items.jpg" alt="">
+            </div>
+            <div class="projects__box__items">
+                <div class="projects__box__content" id="project">
+                    <h3 class="projects__box__title">Turpis pellentesque</h3>
+                    <div class="projects__box__view">
+                        <p>View project</p>
+                        <svg class="projects__box__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 10">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.78048e-05 4.50059C3.7799e-05 4.36798 0.0527162 4.2408 0.146484 4.14704C0.240253 4.05327 0.36743 4.00059 0.500038 4.00059L19.9394 4.00059L16.7924 0.854589C16.6985 0.760702 16.6458 0.633364 16.6458 0.500589C16.6458 0.367813 16.6985 0.240475 16.7924 0.146589C16.8863 0.0527022 17.0137 -4.27054e-05 17.1464 -4.27112e-05C17.2792 -4.2717e-05 17.4065 0.0527021 17.5004 0.146589L21.5004 4.14659C21.547 4.19303 21.5839 4.24821 21.6091 4.30896C21.6343 4.3697 21.6473 4.43482 21.6473 4.50059C21.6473 4.56636 21.6343 4.63148 21.6091 4.69222C21.5839 4.75297 21.547 4.80814 21.5004 4.85459L17.5004 8.85459C17.4065 8.94848 17.2792 9.00122 17.1464 9.00122C17.0137 9.00122 16.8863 8.94848 16.7924 8.85459C16.6985 8.7607 16.6458 8.63336 16.6458 8.50059C16.6458 8.36781 16.6985 8.24047 16.7924 8.14659L19.9394 5.00059L0.500038 5.00059C0.36743 5.00059 0.240253 4.94791 0.146484 4.85414C0.0527162 4.76037 3.78106e-05 4.6332 3.78048e-05 4.50059Z" fill="black" fill-opacity="0.5"></path>
+                        </svg>
+                    </div>
+                </div>
+                <img class="projects__img" src="img/projects__box__items.jpg" alt="">
+            </div>
+            <div class="projects__box__items">
+                <div class="projects__box__content" id="project">
+                    <h3 class="projects__box__title">Turpis pellentesque</h3>
+                    <div class="projects__box__view">
+                        <p>View project</p>
+                        <svg class="projects__box__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 10">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.78048e-05 4.50059C3.7799e-05 4.36798 0.0527162 4.2408 0.146484 4.14704C0.240253 4.05327 0.36743 4.00059 0.500038 4.00059L19.9394 4.00059L16.7924 0.854589C16.6985 0.760702 16.6458 0.633364 16.6458 0.500589C16.6458 0.367813 16.6985 0.240475 16.7924 0.146589C16.8863 0.0527022 17.0137 -4.27054e-05 17.1464 -4.27112e-05C17.2792 -4.2717e-05 17.4065 0.0527021 17.5004 0.146589L21.5004 4.14659C21.547 4.19303 21.5839 4.24821 21.6091 4.30896C21.6343 4.3697 21.6473 4.43482 21.6473 4.50059C21.6473 4.56636 21.6343 4.63148 21.6091 4.69222C21.5839 4.75297 21.547 4.80814 21.5004 4.85459L17.5004 8.85459C17.4065 8.94848 17.2792 9.00122 17.1464 9.00122C17.0137 9.00122 16.8863 8.94848 16.7924 8.85459C16.6985 8.7607 16.6458 8.63336 16.6458 8.50059C16.6458 8.36781 16.6985 8.24047 16.7924 8.14659L19.9394 5.00059L0.500038 5.00059C0.36743 5.00059 0.240253 4.94791 0.146484 4.85414C0.0527162 4.76037 3.78106e-05 4.6332 3.78048e-05 4.50059Z" fill="black" fill-opacity="0.5"></path>
+                        </svg>
+                    </div>
+                </div>
+                <img class="projects__img" src="img/projects__box__items.jpg" alt="">
+            </div>
+            <div class="projects__box__items">
+                <div class="projects__box__content" id="project">
+                    <h3 class="projects__box__title">Turpis pellentesque</h3>
+                    <div class="projects__box__view">
+                        <p>View project</p>
+                        <svg class="projects__box__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 10">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.78048e-05 4.50059C3.7799e-05 4.36798 0.0527162 4.2408 0.146484 4.14704C0.240253 4.05327 0.36743 4.00059 0.500038 4.00059L19.9394 4.00059L16.7924 0.854589C16.6985 0.760702 16.6458 0.633364 16.6458 0.500589C16.6458 0.367813 16.6985 0.240475 16.7924 0.146589C16.8863 0.0527022 17.0137 -4.27054e-05 17.1464 -4.27112e-05C17.2792 -4.2717e-05 17.4065 0.0527021 17.5004 0.146589L21.5004 4.14659C21.547 4.19303 21.5839 4.24821 21.6091 4.30896C21.6343 4.3697 21.6473 4.43482 21.6473 4.50059C21.6473 4.56636 21.6343 4.63148 21.6091 4.69222C21.5839 4.75297 21.547 4.80814 21.5004 4.85459L17.5004 8.85459C17.4065 8.94848 17.2792 9.00122 17.1464 9.00122C17.0137 9.00122 16.8863 8.94848 16.7924 8.85459C16.6985 8.7607 16.6458 8.63336 16.6458 8.50059C16.6458 8.36781 16.6985 8.24047 16.7924 8.14659L19.9394 5.00059L0.500038 5.00059C0.36743 5.00059 0.240253 4.94791 0.146484 4.85414C0.0527162 4.76037 3.78106e-05 4.6332 3.78048e-05 4.50059Z" fill="black" fill-opacity="0.5"></path>
+                        </svg>
+                    </div>
+                </div>
+                <img class="projects__img" src="img/projects__box__items.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="wrapper">
+            <h2 class="section-title">About us</h2>
+            <p>Nibh diam morbi varius amet nunc blandit blandit consectetur pellentesque est dui sed et sed tellus nulla est ornare neque sed morbi sit sed sed amet, integer sodales non ac, odio sed lectus purus felis</p>
+            <div class="about__box">
+                <div class="about__box__items">
+                    <div id="lottie"></div>
+                    <p>Product <br/> companies</p>
+                </div>
+                <div class="about__box__items">
+                    <div id="lottie2"></div>
+                    <p>Startups</p>
+                </div>
+                <div class="about__box__items">
+                    <div id="lottie3"></div>
+                    <p>Retail</p>
+                </div>
+                <div class="about__box__items">
+                    <div id="lottie4"></div>
+                    <p>Partners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <img class="footer__img" src="img/footer-img.png" alt="">
+        <div class="wrapper">
+            <h2 class="section-title section-title--right">Contact Us</h2>
+            <div class="footer__box">
+                <div class="footer__box__items">
+                    <a href="mailto:" class="footer__box__info">
+                        <svg class="footer__box__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+                            <mask id="path-1-inside-1_990_350" fill="white">
+                                <path d="M18.2 0H7.8C3.4983 0 0 3.60217 0 8.03159V24.0948C0 24.4498 0.136964 24.7903 0.380761 25.0413C0.624558 25.2923 0.955218 25.4334 1.3 25.4334H18.2C22.5017 25.4334 26 21.8312 26 17.4018V8.03159C26 3.60217 22.5017 0 18.2 0ZM23.4 17.4018C23.4 20.3547 21.0678 22.7562 18.2 22.7562H2.6V8.03159C2.6 5.07864 4.9322 2.6772 7.8 2.6772H18.2C21.0678 2.6772 23.4 5.07864 23.4 8.03159V17.4018Z"></path>
+                            </mask>
+                            <path d="M0 24.0948H-15H0ZM2.6 22.7562H-12.4V37.7562H2.6V22.7562ZM18.2 -15H7.8V15H18.2V-15ZM7.8 -15C-5.19665 -15 -15 -4.26537 -15 8.03159H15C15 11.4697 12.1933 15 7.8 15V-15ZM-15 8.03159V24.0948H15V8.03159H-15ZM-15 24.0948C-15 28.2887 -13.3861 32.3961 -10.3798 35.4916L11.1414 14.591C13.6601 17.1844 15 20.6109 15 24.0948H-15ZM-10.3798 35.4916C-7.35907 38.6021 -3.16697 40.4334 1.3 40.4334V10.4334C5.0774 10.4334 8.60818 11.9826 11.1414 14.591L-10.3798 35.4916ZM1.3 40.4334H18.2V10.4334H1.3V40.4334ZM18.2 40.4334C31.1967 40.4334 41 29.6987 41 17.4018H11C11 13.9637 13.8067 10.4334 18.2 10.4334V40.4334ZM41 17.4018V8.03159H11V17.4018H41ZM41 8.03159C41 -4.26537 31.1967 -15 18.2 -15V15C13.8067 15 11 11.4697 11 8.03159H41ZM8.4 17.4018C8.4 12.4872 12.3728 7.75617 18.2 7.75617V37.7562C29.7628 37.7562 38.4 28.2223 38.4 17.4018H8.4ZM18.2 7.75617H2.6V37.7562H18.2V7.75617ZM17.6 22.7562V8.03159H-12.4V22.7562H17.6ZM17.6 8.03159C17.6 12.9462 13.6272 17.6772 7.8 17.6772V-12.3228C-3.76275 -12.3228 -12.4 -2.7889 -12.4 8.03159H17.6ZM7.8 17.6772H18.2V-12.3228H7.8V17.6772ZM18.2 17.6772C12.3728 17.6772 8.4 12.9462 8.4 8.03159H38.4C38.4 -2.7889 29.7628 -12.3228 18.2 -12.3228V17.6772ZM8.4 8.03159V17.4018H38.4V8.03159H8.4Z" fill="#F0504B" mask="url(#path-1-inside-1_990_350)"></path>
+                        </svg>
+                        <p>hello@sedenum.com</p>
+                    </a>
+                    <div class="footer__box__info">
+                        <svg class="footer__box__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 27">
+                            <path d="M9.99998 26.4507C8.19561 24.8678 6.52312 23.1325 4.99999 21.263C2.71428 18.4553 1.25556e-06 14.274 1.25556e-06 10.2895C-0.000990025 8.25464 0.585012 6.26518 1.68384 4.57293C2.78268 2.88068 4.34495 1.56171 6.17294 0.782947C8.00093 0.00418239 10.0125 -0.19937 11.953 0.19805C13.8935 0.595471 15.6758 1.576 17.0742 3.01554C18.0053 3.96884 18.7433 5.10259 19.2455 6.35117C19.7477 7.59975 20.0041 8.93836 20 10.2895C20 14.274 17.2857 18.4553 15 21.263C13.4768 23.1325 11.8043 24.8678 9.99998 26.4507ZM9.99998 5.88195C8.86334 5.88195 7.77325 6.34632 6.96953 7.1729C6.1658 7.99949 5.71427 9.12057 5.71427 10.2895C5.71427 11.4585 6.1658 12.5796 6.96953 13.4062C7.77325 14.2328 8.86334 14.6971 9.99998 14.6971C11.1366 14.6971 12.2267 14.2328 13.0304 13.4062C13.8342 12.5796 14.2857 11.4585 14.2857 10.2895C14.2857 9.12057 13.8342 7.99949 13.0304 7.1729C12.2267 6.34632 11.1366 5.88195 9.99998 5.88195Z" fill="#F0504B"></path>
+                        </svg>
+                        <p>Stefana Okrzei St. 1A/10P <br/> 03-715 Warsaw, Poland</p>
+                    </div>
+                    <div class="footer__box__social">
+                        <div class="footer__box__social__items">
+                            <a href="#" target="_blank" rel="nofollow">
+                                <svg class="footer__box__social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7506 13.0798H19.1669V15.7777C19.9471 14.226 21.9479 12.8318 24.9536 12.8318C30.7154 12.8318 32.0834 15.9206 32.0834 21.5877V32.0833H26.25V22.8783C26.25 19.651 25.4698 17.831 23.4836 17.831C20.7288 17.831 19.584 19.7925 19.584 22.8768V32.0833H13.7506V13.0798ZM3.74794 31.8354H9.58127V12.8318H3.74794V31.8354ZM10.4169 6.63538C10.4171 7.12432 10.3201 7.60843 10.1316 8.05957C9.94311 8.5107 9.66681 8.91987 9.31877 9.26329C8.61352 9.9642 7.65891 10.3565 6.6646 10.3541C5.67205 10.3535 4.71964 9.96212 4.01335 9.26475C3.66658 8.92016 3.39121 8.51054 3.20302 8.05934C3.01483 7.60814 2.91753 7.12424 2.91669 6.63538C2.91669 5.64808 3.31044 4.70308 4.01481 4.006C4.72048 3.30769 5.67329 2.91619 6.66606 2.91663C7.66065 2.91663 8.6144 3.30892 9.31877 4.006C10.0217 4.70308 10.4169 5.64808 10.4169 6.63538Z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer__box__social__items">
+                            <a href="#" target="_blank" rel="nofollow">
+                                <svg class="footer__box__social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+                                    <g clip-path="url(#clip0_1164_400)">
+                                        <path d="M38.5 12.25H26.25V8.75H38.5V12.25ZM41.5205 29.75C40.747 32.0198 37.9697 35 32.5938 35C27.2143 35 22.8568 31.9743 22.8568 25.0688C22.8568 18.2262 26.9255 14.7087 32.4222 14.7087C37.8158 14.7087 41.1092 17.8273 41.8285 22.4543C41.965 23.3398 42.0192 24.5332 41.9948 26.1992H27.9475C28.175 31.8185 34.0428 31.9953 35.9765 29.75H41.5205ZM28.07 22.75H36.7587C36.575 20.0428 34.7707 18.8668 32.424 18.8668C29.8585 18.8668 28.4393 20.2107 28.07 22.75ZM11.3155 34.979H0V8.78675H12.1678C21.7507 8.9285 21.9328 18.3138 16.9277 20.8722C22.9845 23.0773 23.1875 34.979 11.3155 34.979ZM5.25 19.25H11.522C15.911 19.25 16.6075 14 10.976 14H5.25V19.25ZM11.1842 24.5H5.25V29.778H11.0968C16.443 29.778 16.1157 24.5 11.1842 24.5Z"></path>
+                                      </g>
+                                      <defs>
+                                        <clipPath id="clip0_1164_400">
+                                          <rect width="42" height="42"></rect>
+                                        </clipPath>
+                                      </defs>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer__box__social__items">
+                            <a href="#" target="_blank" rel="nofollow">
+                                <svg class="footer__box__social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 27">
+                                    <path d="M3.3186 27V14.3308H0V9.7693H3.3186V5.87318C3.3186 2.81156 5.27891 0 9.79588 0C11.6247 0 12.9771 0.176985 12.9771 0.176985L12.8705 4.43667C12.8705 4.43667 11.4913 4.42311 9.98632 4.42311C8.35743 4.42311 8.09646 5.18087 8.09646 6.43856V9.7693H13L12.7866 14.3308H8.09646V27H3.3186Z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__copy">
+                        <p>Privacy policy</p>
+                        <p>Dfhhrtj ytky8p</p>
+                    </div>
+                </div>
+                <div class="footer__box__items footer__box__items--order">
+                    <form class="form" id="form" action="#">
+                        <div class="form-error error" id="review__error"></div>
+                        <input class="form-input" type="text" name="name" id="name" placeholder="Full name">
+                        <input class="form-input" type="text" name="email" id="email" placeholder="Email">
+                        <textarea class="form-input form-input--textaarea" name="messages" id="messages" cols="30" rows="10" placeholder="Your message|"></textarea>
+                        <button class="form-btn" id="form-btn" type="submit">send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="modal" id="1project">
+        <div class="wrapper">
+            <div class="modal__header">
+                <div class="modal__title">Turpis pellentesque</div>
+                <div class="modal__close">
+                    <svg class="modal__close__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+                        <g filter="url(#filter0_d_1175_466)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.35525 4.07102C-0.549911 7.97618 -0.549911 14.308 3.35525 18.2132C7.26041 22.1183 13.5922 22.1183 17.4974 18.2132C21.4025 14.308 21.4025 7.97618 17.4974 4.07102C13.5922 0.165864 7.26041 0.165864 3.35525 4.07102ZM13.6404 13.0706C13.8109 13.2411 13.9067 13.4723 13.9067 13.7134C13.9067 13.9545 13.8109 14.1857 13.6404 14.3562C13.4699 14.5267 13.2387 14.6225 12.9976 14.6225C12.7565 14.6225 12.5253 14.5267 12.3548 14.3562L10.4263 12.4277L8.49784 14.3562C8.32735 14.5267 8.09612 14.6225 7.85502 14.6225C7.61391 14.6225 7.38268 14.5267 7.21219 14.3562C7.04171 14.1857 6.94593 13.9545 6.94593 13.7134C6.94593 13.4723 7.04171 13.2411 7.21219 13.0706L9.14067 11.1421L7.21219 9.21362C7.04171 9.04313 6.94593 8.8119 6.94593 8.57079C6.94593 8.32969 7.04171 8.09846 7.21219 7.92797C7.38268 7.75748 7.61391 7.6617 7.85502 7.6617C8.09612 7.6617 8.32735 7.75748 8.49784 7.92797L10.4263 9.85644L12.3548 7.92797C12.5253 7.75748 12.7565 7.6617 12.9976 7.6617C13.2387 7.6617 13.4699 7.75748 13.6404 7.92797C13.8109 8.09846 13.9067 8.32969 13.9067 8.57079C13.9067 8.8119 13.8109 9.04313 13.6404 9.21362L11.712 11.1421L13.6404 13.0706Z" fill="url(#paint0_linear_1175_466)"></path>
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_1175_466" x="0.42627" y="0.142212" width="22" height="21.9998" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                              <feOffset dx="1"></feOffset>
+                              <feGaussianBlur stdDeviation="0.5"></feGaussianBlur>
+                              <feComposite in2="hardAlpha" operator="out"></feComposite>
+                              <feColorMatrix type="matrix" values="0 0 0 0 0.8 0 0 0 0 0.753333 0 0 0 0 0.753333 0 0 0 0.49 0"></feColorMatrix>
+                              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1175_466"></feBlend>
+                              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1175_466" result="shape"></feBlend>
+                            </filter>
+                            <linearGradient id="paint0_linear_1175_466" x1="28.4575" y1="13.617" x2="4.41591" y2="9.37432" gradientUnits="userSpaceOnUse">
+                              <stop stop-color="#B30F26"></stop>
+                              <stop offset="0.0001" stop-color="#B30F26"></stop>
+                              <stop offset="1" stop-color="#F0504B"></stop>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal__box">
+                <div class="modal__box__items">
+                    <img class="modal__img" src="img/projects__box__items.jpg" alt="">
+                </div>
+                <div class="modal__box__items">
+                    <p>ultricies at amet tempus orci id sed ullamcorper enim, tellus, justo, nunc faucibus nec duis pretium id tincidunt et rhoncus, condimentum pulvinar morbi convallis nullam nulla pellentesque metus, consequat id nisl massa ac mattis ligula diam aenean vitae</p>
+                </div>
+                <div class="modal__box__items">
+                    <img class="modal__img" src="img/projects__box__items.jpg" alt="">
+                </div>
+                <div class="modal__box__items">
+                    <p>ultricies at amet tempus orci id sed ullamcorper enim, tellus, justo, nunc faucibus nec duis pretium id tincidunt et rhoncus, condimentum pulvinar morbi convallis nullam nulla pellentesque metus, consequat id nisl massa ac mattis ligula diam aenean vitae</p>
+                </div>
+                <div class="modal__box__items">
+                    <img class="modal__img" src="img/projects__box__items.jpg" alt="">
+                </div>
+            </div>
+            <div class="modal__footer">
+                <div class="modal__footer__items">
+                    <a href="#" target="_blank" rel="nofollow">
+                        <svg class="footer__box__social__icon footer__box__social__icon--modal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7506 13.0798H19.1669V15.7777C19.9471 14.226 21.9479 12.8318 24.9536 12.8318C30.7154 12.8318 32.0834 15.9206 32.0834 21.5877V32.0833H26.25V22.8783C26.25 19.651 25.4698 17.831 23.4836 17.831C20.7288 17.831 19.584 19.7925 19.584 22.8768V32.0833H13.7506V13.0798ZM3.74794 31.8354H9.58127V12.8318H3.74794V31.8354ZM10.4169 6.63538C10.4171 7.12432 10.3201 7.60843 10.1316 8.05957C9.94311 8.5107 9.66681 8.91987 9.31877 9.26329C8.61352 9.9642 7.65891 10.3565 6.6646 10.3541C5.67205 10.3535 4.71964 9.96212 4.01335 9.26475C3.66658 8.92016 3.39121 8.51054 3.20302 8.05934C3.01483 7.60814 2.91753 7.12424 2.91669 6.63538C2.91669 5.64808 3.31044 4.70308 4.01481 4.006C4.72048 3.30769 5.67329 2.91619 6.66606 2.91663C7.66065 2.91663 8.6144 3.30892 9.31877 4.006C10.0217 4.70308 10.4169 5.64808 10.4169 6.63538Z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank" rel="nofollow">
+                        <svg class="footer__box__social__icon footer__box__social__icon--modal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+                            <g clip-path="url(#clip0_1164_400)">
+                                <path d="M38.5 12.25H26.25V8.75H38.5V12.25ZM41.5205 29.75C40.747 32.0198 37.9697 35 32.5938 35C27.2143 35 22.8568 31.9743 22.8568 25.0688C22.8568 18.2262 26.9255 14.7087 32.4222 14.7087C37.8158 14.7087 41.1092 17.8273 41.8285 22.4543C41.965 23.3398 42.0192 24.5332 41.9948 26.1992H27.9475C28.175 31.8185 34.0428 31.9953 35.9765 29.75H41.5205ZM28.07 22.75H36.7587C36.575 20.0428 34.7707 18.8668 32.424 18.8668C29.8585 18.8668 28.4393 20.2107 28.07 22.75ZM11.3155 34.979H0V8.78675H12.1678C21.7507 8.9285 21.9328 18.3138 16.9277 20.8722C22.9845 23.0773 23.1875 34.979 11.3155 34.979ZM5.25 19.25H11.522C15.911 19.25 16.6075 14 10.976 14H5.25V19.25ZM11.1842 24.5H5.25V29.778H11.0968C16.443 29.778 16.1157 24.5 11.1842 24.5Z"></path>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_1164_400">
+                                  <rect width="42" height="42"></rect>
+                                </clipPath>
+                              </defs>
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank" rel="nofollow">
+                        <svg class="footer__box__social__icon footer__box__social__icon--modal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 27">
+                            <path d="M3.3186 27V14.3308H0V9.7693H3.3186V5.87318C3.3186 2.81156 5.27891 0 9.79588 0C11.6247 0 12.9771 0.176985 12.9771 0.176985L12.8705 4.43667C12.8705 4.43667 11.4913 4.42311 9.98632 4.42311C8.35743 4.42311 8.09646 5.18087 8.09646 6.43856V9.7693H13L12.7866 14.3308H8.09646V27H3.3186Z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal__footer__items modal__footer__items--scrolllto">
+                    <a class="form-btn form-btn__modal" href="#footer">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lottie.js"></script>
+    <script src="js/animationData.js"></script>
+</body>
+</html>
